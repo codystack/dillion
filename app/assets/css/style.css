@@ -4211,7 +4211,7 @@ textarea.form-control-lg {
     --bs-navbar-color: var(--bs-gray-700);
     --bs-navbar-hover-color: var(--bs-black);
     --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb),0.3);
-    --bs-navbar-active-color: var(--bs-black);
+    --bs-navbar-active-color: var(--bs-primary);
     --bs-navbar-brand-padding-y: 0;
     --bs-navbar-brand-margin-end: 1rem;
     --bs-navbar-brand-font-size: 1.0625rem;

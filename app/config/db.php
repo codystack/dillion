@@ -12,9 +12,9 @@ if ($WEBSITE_ENVIRONMENT == "Development") {
     error_reporting(E_ALL ^ E_NOTICE); // turn ON showing errors
 } else {
     $host = "localhost";
-    $user = "easyhnfc_app";
+    $user = "webiirem_dillion";
     $password = "$10Password!!";
-    $database = "easyhnfc_app";
+    $database = "webiirem_dillion";
     define("APP_ENVIRONMENT", "Production");
     define("APP_BASE_URL", "https://www.dillionproperty.com");
     #error_reporting(0); // turn OFF showing errors

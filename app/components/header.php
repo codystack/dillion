@@ -14,6 +14,7 @@ if (isset($_GET['logout'])) {
     header("location: ./");
 }
 
+require_once "./auth/userinfo.php";
 ?>
 <!doctype html>
 <html lang="en" data-bs-theme="">
