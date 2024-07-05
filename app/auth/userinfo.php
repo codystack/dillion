@@ -12,5 +12,11 @@ if (mysqli_num_rows($result) > 0) {
         $first_name = $row['first_name'];
         $last_name = $row['last_name'];
         $picture = $row['picture'];
+        $email = $row['email'];
+        $phone = $row['phone'];
+        $gender = $row['gender'];
+        $nin = $row['nin'];
+        $address = $row['address'];
+        $proof_of_identification = $row['proof_of_identification'];
     }
 }

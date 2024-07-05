@@ -31,134 +31,53 @@ include "./components/sidebar.php";
 
                     <!-- Form -->
                     <form>
-
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col">
-                        <div class="row align-items-center">
-                            <div class="col-auto">
-
-                            <!-- Avatar -->
-                            <div class="avatar">
-                                <img class="avatar-img rounded-circle" src="assets/img/avatars/profiles/avatar-1.jpg" alt="...">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label class="form-label">First name</label>
+                                    <input type="text" class="form-control" value="<?php echo $first_name; ?>" readonly>
+                                </div>
                             </div>
-
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label class="form-label">Last name</label>
+                                    <input type="text" class="form-control" value="<?php echo $last_name; ?>" readonly>
+                                </div>
                             </div>
-                            <div class="col ms-n2">
-
-                            <!-- Heading -->
-                            <h4 class="mb-1">
-                                Your avatar
-                            </h4>
-
-                            <!-- Text -->
-                            <small class="text-body-secondary">
-                                PNG or JPG no bigger than 1000px wide and tall.
-                            </small>
-
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label class="form-label">Email</label>
+                                    <input type="text" class="form-control" value="<?php echo $email; ?>" readonly>
+                                </div>
                             </div>
-                        </div> <!-- / .row -->
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label class="form-label">Phone</label>
+                                    <input type="text" class="form-control" value="<?php echo $phone; ?>" readonly>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label class="form-label">Gender</label>
+                                    <input type="text" class="form-control" value="<?php echo $gender; ?>" readonly>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label class="form-label">NIN<small>(National Identity Number)</small></label>
+                                    <input type="text" class="form-control" value="<?php echo '***********' . substr($nin,-4); ?>" readonly>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label class="form-label">Address</label>
+                                    <input type="text" class="form-control" value="<?php echo $address; ?>" readonly>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-auto">
-
-                        <!-- Button -->
-                        <button class="btn btn-sm btn-primary">
-                            Upload
-                        </button>
-
-                        </div>
-                    </div> <!-- / .row -->
-
-                    <!-- Divider -->
-                    <hr class="my-5">
-
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-
-                        <!-- First name -->
-                        <div class="form-group">
-
-                            <!-- Label -->
-                            <label class="form-label">
-                            First name
-                            </label>
-
-                            <!-- Input -->
-                            <input type="text" class="form-control">
-
-                        </div>
-
-                        </div>
-                        <div class="col-12 col-md-6">
-
-                        <!-- Last name -->
-                        <div class="form-group">
-
-                            <!-- Label -->
-                            <label class="form-label">
-                            Last name
-                            </label>
-
-                            <!-- Input -->
-                            <input type="text" class="form-control">
-
-                        </div>
-
-                        </div>
-                        <div class="col-12">
-
-                        <!-- Email address -->
-                        <div class="form-group">
-
-                            <!-- Label -->
-                            <label class="mb-1">
-                            Email address
-                            </label>
-
-                            <!-- Form text -->
-                            <small class="form-text text-body-secondary">
-                            This contact will be shown to others publicly, so choose it carefully.
-                            </small>
-
-                            <!-- Input -->
-                            <input type="email" class="form-control">
-
-                        </div>
-
-                        </div>
-                        <div class="col-12 col-md-6">
-
-                        <!-- Phone -->
-                        <div class="form-group">
-
-                            <!-- Label -->
-                            <label class="form-label">
-                            Phone
-                            </label>
-
-                            <!-- Input -->
-                            <input type="text" class="form-control mb-3" placeholder="(___)___-____" data-inputmask="'mask': '(999)999-9999'">
-
-                        </div>
-
-                        </div>
-                        <div class="col-12 col-md-6">
-
-                        <!-- Birthday -->
-                        <div class="form-group">
-
-                            <!-- Label -->
-                            <label class="form-label">
-                            Birthday
-                            </label>
-
-                            <!-- Input -->
-                            <input type="text" class="form-control" data-flatpickr>
-
-                        </div>
-
-                        </div>
-                    </div>
-                        <button class="btn btn-primary">Save changes</button>
+                        
+                        <a href="mailto:support@dillionproperty.com" class="btn btn-primary">Request profile update</a>
+                        <a href="#" id="<? echo $user_id; ?>" class="view_id_card btn btn-dark"><i class="fe fe-eye"></i> View ID Card</a>
 
                         <hr class="mt-4 mb-5">
 
@@ -182,5 +101,20 @@ include "./components/sidebar.php";
             </div>
         </div>
     </div>
+
+    <!-- View ID Card modal start-->
+    <div class="modal fade" id="viewIDCardModal" tabindex="-1" aria-labelledby="viewIDCardModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content shadow-3">
+                <div class="modal-body p-0" id="id_card_info">
+                    <?php @include("../view/view-pastor.php");?>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-danger" data-bs-dismiss="modal">Close</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- View ID Card modal end-->
 
 <?php include "./components/footer.php"; ?>

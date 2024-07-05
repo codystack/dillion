@@ -100,7 +100,7 @@ require_once "./auth/queries.php";
                                                 <div class="col-md-6 col-12">
                                                     <div class="form-floating mb-4">
                                                         <input type="text" class="form-control" id="floatingInput" name="nin" required placeholder="3276 2627 2736 9374">
-                                                        <label for="floatingInput">NIN</label>
+                                                        <label for="floatingInput">NIN<small>(National Identity Number)</small></label>
                                                     </div>
                                                 </div>
 
