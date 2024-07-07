@@ -34,16 +34,16 @@
                             <a class="nav-link <?php if($page=='Dashboard'){echo 'active';}?>" href="dashboard"><i class="fe fe-grid"></i> Overview</a>
                         </li>
                         <li class="nav-item mt-3">
-                            <a class="nav-link " href="properties"><i class="fe fe-map"></i> Properties</a>
+                            <a class="nav-link <?php if($page=='Properties'){echo 'active';}?>" href="properties"><i class="fe fe-map"></i> Properties</a>
                         </li>
                         <li class="nav-item mt-3">
-                            <a class="nav-link " href="portfolio"><i class="fe fe-briefcase"></i> Portfolio</a>
+                            <a class="nav-link <?php if($page=='Portfolio'){echo 'active';}?>" href="portfolio"><i class="fe fe-briefcase"></i> Portfolio</a>
                         </li>
                         <li class="nav-item mt-3">
-                            <a class="nav-link " href="documents"><i class="fe fe-file-text"></i> Documents</a>
+                            <a class="nav-link <?php if($page=='Documents'){echo 'active';}?>" href="documents"><i class="fe fe-file-text"></i> Documents</a>
                         </li>
                         <li class="nav-item mt-3">
-                            <a class="nav-link " href="trade"><i class="fe fe-shopping-cart"></i> Trade</a>
+                            <a class="nav-link <?php if($page=='Trade'){echo 'active';}?>" href="trade"><i class="fe fe-shopping-cart"></i> Trade</a>
                         </li>
                     </ul>
 
