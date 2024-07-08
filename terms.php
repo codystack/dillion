@@ -6,74 +6,65 @@
         
         <?php include "./components/navbar.php"; ?>
 
-        <div class="page-banner-simple bg-secondary py-50" style="background-image: url(assets/images/background/bg-1.png); background-repeat: no-repeat; background-position: center center; background-size: cover;">
+        <div class="page-banner-simple bg-secondary py-50" style="background-image: url(assets/images/breadcrumb.jpg); background-repeat: no-repeat; background-position: center center; background-size: cover;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
                         <h3 class="banner-title text-white">Terms and Conditions</h3>
-                        <span class="banner-tagline font-medium text-white">We make strategies, design & development.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--============== Page Banner End ==============-->
-
-        <div class="full-row bg-dark py-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb bg-transparent list-color-white mb-0">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Terms and Conditions</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">User Agreement</li>
-                            </ol>
-                        </nav>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!--============== Terms Data Start ==============-->
         <div class="full-row">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="bg-white border rounded p-5 mb-30">
-                            <ul class="artical-list decimal-list list-color-general">
-                                <li><a href="#">User Agreement</a></li>
-                                <li><a href="#">Authorization Agreement</a></li>
-                                <li><a href="#">Our Privacy Policy</a></li>
-                                <li><a href="#">Membership Agreement and Terms</a></li>
-                                <li><a href="#">Payment System and Police</a></li>
-                                <li><a href="#">Proprietary Rights Infringement</a></li>
-                                <li><a href="#">Cloud Security License Agreement</a></li>
-                                <li><a href="#">Computer Security Terms of Use</a></li>
-                                <li><a href="#">Money Refund Instructions</a></li>
-                                <li><a href="#">Career and Joining Condition</a></li>
-                                <li><a href="#">Shopping and Product Delevery</a></li>
-                                <li><a href="#">Terms of Office Security Service</a></li>
-                                <li><a href="#">Complaint and Objection</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-10 mx-auto">
                         <div class="bg-white p-40 border rounded">
-                            <h3 class="down-line mb-3">User Agreement</h3>
-                            <p>Volutpat aliquet litora primis, egestas lobortis habitant dictum Mollis consectetuer. Cum, pharetra neque dignissim vestibulum velit, ultricies habitasse. Tempus nisi ad massa nostra bibendum sit ligula. Cras sociosqu penatibus nisi aenean ante conubia ante rhoncus vivamus.</p>
-                            <p>Semper dapibus. Quisque pulvinar. Ullamcorper nonummy. Nullam. Aliquet nunc morbi ante est. Libero nascetur hendrerit sociis pulvinar mi faucibus orci. Egestas ornare, orci, urna neque lobortis fermentum id justo scelerisque nullam ac ultrices enim <a href="#">curabitur venenatis accumsan</a> at torquent risus scelerisque praesent cum erat, tristique aptent parturient eu consequat torquent vehicula aptent inceptos ac nostra sed vivamus Porta faucibus enim eget felis dapibus mollis.</p>
-                            <p>Sem senectus mauris vel pellentesque odio ac platea turpis. Orci dictum ac lobortis, velit ante nunc aenean nibh. Augue iaculis. Justo nibh magnis imperdiet pede nisi erat, velit Tempus odio neque nonummy rhoncus consequat at turpis nibh nostra ullamcorper porta risus sagittis nisl donec semper senectus, suspendisse ridiculus mauris eu diam aliquet velit primis. Dapibus massa felis felis. Vestibulum nisi ultrices dui aenean maecenas. Dis laoreet netus sed ipiscing nulla. Suscipit nulla. Iaculis venenatis pharetra ullamcorper leo mattis eu sed dolor posuere Nisl mollis scelerisque etiam. Aliquet morbi sollicitudin. Dui vestibulum vivamus nec praesent Varius netus iaculis Porttitor dui aliquet libero nisi scelerisque ridiculus vulputate vitae, porta fermentum platea malesuada ligula cras morbi ultricies ac adipiscing. Aenean leo odio. Diam montes diam. Inceptos nonummy fermentum, magna velit curabitur.</p>
-                            <h4 class="down-line mb-3">The Deals and Agreement</h4>
-                            <p>Dignissim pharetra cursus porttitor convallis hymenaeos consectetuer Ultricies. Vehicula vivamus. Ante ornare donec torquent senectus mi ac placerat conubia. Magna tincidunt aptent convallis quam habitant lacus etiam elit. Erat a sapien penatibus integer quisque placerat tempor cursus elit metus, at potenti nunc ullamcorper.</p>
-                            <p>Nullam volutpat ultricies mus fringilla euismod ullamcorper litora et, lobortis taciti placerat. Fringilla congue Vitae hymenaeos justo vehicula Egestas laoreet vehicula nulla tempus. Blandit. Duis pellentesque etiam eget egestas felis rutrum class tellus placerat pede porttitor suspendisse sociis, ad platea. Penatibus mus ligula lectus nulla. Sociis mi fermentum porta mus sociosqu integer justo sit hac luctus aptent.</p>
+                            <h3 class="down-line mb-3">Introduction</h3>
+                            <p>Welcome to Dillion Property website (www.dillionproperty.com).<br>
+                                These Terms and Conditions govern your use of our Website and services. By accessing or using our Website, you agree to comply with and be bound by these Terms. Kindly be sure to agree with these terms before further proceeding to the use of this website.</p>
+                            <h3 class="down-line mb-3">Use of Website</h3>
+                            <h6 class="mb-3">Eligibility</h6>
+                            <p>You must be at least 18 years old to use our Website. By using our Website, you represent and warrant that you meet this eligibility requirement.</p>
+                            <h6 class="mb-3">Eligibility</h6>
+                            <p>You agree to use our Website only for lawful purposes. You agree not to:</p>
                             <ul class="list-style-circle mb-3">
-                                <li>Dignissim pharetra cursus porttitor convallis hymenaeos consectetuer.</li>
-                                <li>Ante ornare donec torquent senectus mi ac placerat conubia.</li>
-                                <li>Magna tincidunt aptent convallis quam habitant lacus etiam elit.</li>
-                                <li>Erat a sapien penatibus integer quisque placerat tempor cursus metus, at potenti nunc ullamcorper.</li>
-                                <li>Nullam volutpat ultricies mus fringilla euismod ullamcorper litora et, lobortis taciti placerat.</li>
+                                <li>▪️ Use our Website in any way that violates any applicable federal, state, local, or international law or regulation.</li>
+                                <li>▪️ Engage in any conduct that restricts or inhibits anyone's use or enjoyment of the Website, or which may harm Dillion Property or users of the Website.</li>
+                                <li>▪️ Use the Website in any manner that could disable, overburden, damage, or impair the site or interfere with any other party's use of the Website.</li>
                             </ul>
-                            <p>Dignissim pharetra cursus porttitor convallis hymenaeos consectetuer Ultricies. Vehicula vivamus. Ante ornare donec torquent senectus mi ac placerat conubia. Magna tincidunt aptent convallis quam habitant lacus etiam elit. Erat a sapien penatibus integer quisque placerat tempor cursus elit metus, at potenti nunc ullamcorper.</p>
+                            <h3 class="down-line mb-3">Services</h3>
+                            <h6 class="mb-3">1.⁠ ⁠Real Estate Consulting</h6>
+                            <p>Our real estate consulting services are designed to provide expert advice and strategic guidance. These services are subject to separate agreements and terms which will be provided at the time of engagement</p>
+                            <h6 class="mb-3">2.⁠ ⁠Property Speculation, Buying and Sales</h6>
+                            <p>Our property speculation, buying, and sales services involve the identification and transaction of real estate properties. All transactions are subject to market conditions and the specific terms agreed upon between Dillion Property and the client.</p>
+                            <h6 class="mb-3">3.⁠ ⁠Real Estate Investment and Land Banking</h6>
+                            <p>Our real estate investment and land banking services are intended to help clients build and manage a portfolio of real estate assets. These services are provided under specific terms agreed upon with each client.</p>
+                            <h3 class="down-line mb-3">Construction and Site Management</h3>
+                            <p>Our building and road construction, as well as site management services, are provided under contractual agreements detailing the scope, timelines, and terms of service.</p>
+                            <h3 class="down-line mb-3">Intellectual Property</h3>
+                            <h6 class="mb-3">1.⁠ ⁠Ownership</h6>
+                            <p>All content on our Website, including but not limited to text, graphics, logos, images, and software, is the property of Dillion Property or its content suppliers and is protected by international copyright laws.</p>
+                            <h6 class="mb-3">2.⁠ ⁠Limited License</h6>
+                            <p>You are granted a limited, non-exclusive, non-transferable, and revocable license to access and use our Website for personal, non-commercial purposes. This license does not include any resale or commercial use of the Website or its contents.</p>
+                            <h3 class="down-line mb-3">Limitation of Liability</h3>
+                            <p>To the fullest extent permitted by law, Dillion Property shall not be liable for any direct, indirect, incidental, special, or consequential damages resulting from:</p>
+                            <ul class="list-style-circle mb-3">
+                                <li>▪️ ⁠The use or inability to use our Website or Services.</li>
+                                <li>▪️ Any unauthorized access to or alteration of your transmissions or data.</li>
+                                <li>▪️ Any other matter relating to our Website or Services.</li>
+                            </ul>
+                            <h3 class="down-line mb-3">Indemnification</h3>
+                            <p>You agree to indemnify, defend, and hold harmless Dillion Property, its affiliates, officers, directors, employees, agents, and licensors from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or relating to your violation of these Terms or your use of the Website.</p>
+                            <h3 class="down-line mb-3">Privacy Policy</h3>
+                            <p>Your use of our Website is also governed by our Privacy Policy, which can be found <a href="privacy">here</a>.</p>
+                            <h3 class="down-line mb-3">Changes to Terms and Conditions</h3>
+                            <p>We may revise and update these Terms from time to time in our sole discretion. All changes are effective immediately when we post them and apply to all access to and use of the Website thereafter. Your continued use of the Website following the posting of revised Terms means that you accept and agree to the changes.</p>
+                            <h3 class="down-line mb-3">Governing Law</h3>
+                            <p>These Terms are governed by and construed in accordance with the laws of Nigeria without regard to its conflict of law principles.</p>
+                            <p>If you have any questions about these Terms, please contact us.</p>
+                            <p>By using our Website, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.</p>
                         </div>
                     </div>
                 </div>

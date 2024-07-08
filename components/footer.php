@@ -14,6 +14,28 @@
                         </div>
                     </div>
                     <div class="col">
+                        <div class="footer-widget footer-nav mb-4">
+                            <h3 class="widget-title mb-4">Quick Links</h3>
+                            <ul>
+                                <li><a href="how-it-works">How it works</a></li>
+                                <li><a href="affiliates">Affiliates</a></li>
+                                <li><a href="affiliate-sign-up">Become an affiliate</a></li>
+                                <li><a href="services">Our services</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer-widget footer-nav mb-4">
+                            <h3 class="widget-title mb-4">Company</h3>
+                            <ul>
+                                <li><a href="about">About us</a></li>
+                                <li><a href="affiliates">FAQ</a></li>
+                                <li><a href="services">Contact us</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
                         <div class="footer-widget contact-widget mb-4">
                             <h3 class="widget-title mb-4">Contact Info</h3>
                             <ul>
@@ -21,25 +43,6 @@
                                 <li>+234 818 616 1570</li>
                                 <li>hello@dillionproperty.com</li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="footer-widget footer-nav mb-4">
-                            <h3 class="widget-title mb-4">Quick Links</h3>
-                            <ul>
-                                <li><a href="how-it-works">How it Works</a></li>
-                                <li><a href="affiliates">Affiliates</a></li>
-                                <li><a href="affiliate-sign-up">Become an Affiliate</a></li>
-                                <li><a href="services">Our Services</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="footer-widget newslatter-widget mb-4">
-                            <h4 class="widget-title mb-4">Appointment</h4>
-                            <p>Litora ligula dapibus scelerisque vitae, fermentum aenean gravida lobortis mus pulvinar magna turient primis.</p>
-                            <a href="#" class="btn btn-primary w-100">Register Now</a>
                         </div>
                     </div>
                 </div>
