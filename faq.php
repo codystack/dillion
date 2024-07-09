@@ -16,86 +16,38 @@
             </div>
         </div>
 
-        <!--============== Faqs Start ==============-->
         <div class="full-row">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <div class="simple-collaps px-4 py-3 bg-white border rounded mb-3">
-                            <span class="accordion text-secondary d-block">What is html template?</span>
+                            <span class="accordion text-secondary d-block">How can i start?</span>
                             <div class="panel" style="">
-                                <p>Eget justo aliquam vel rhoncus tortor suscipit. Etiam dis integer. Bibendum inceptos curae. Cras feugiat proin est vestibulum integer tincidunt dapibus quisque Urna. Nibh quisque per tellus dis fringilla fringilla habitasse posuere aliquam quam ornare nibh odio commodo Curabitur. Nectus etiam. Aptent. Libero morbi. Libero nam torquent rhoncus fames eu consequat pulvinar.</p>
-                                <p>Fermentum, urna torquent fermentum. Nulla lacus scelerisque penatibus sodales dictum quisque. Est urna vel commodo cubilia pede ipsum etiam. Et ac quis leo bibendum platea Mus nascetur. Potenti eleifend iaculis cras. Consequat erat suscipit Nullam parturient mauris sollicitudin. A massa ad imperdiet neque platea nonummy senectus.</p>
+                                <p>Simple! Fill the expression of interest form, then make payment to any of our accounts and we will send a receipt to you and and also proceed with documentation.</p>
                             </div>
                         </div>
                         <div class="simple-collaps px-4 py-3 bg-white border rounded mb-3">
-                            <span class="accordion text-secondary d-block">How many category avaibable in this template?</span>
+                            <span class="accordion text-secondary d-block">Do you have any property with C of O?</span>
                             <div class="panel">
-                                <p>Eget justo aliquam vel rhoncus tortor suscipit. Etiam dis integer. Bibendum inceptos curae. Cras feugiat proin est vestibulum integer tincidunt dapibus quisque Urna. Nibh quisque per tellus dis fringilla fringilla habitasse posuere aliquam quam ornare nibh odio commodo Curabitur. Nectus etiam. Aptent. Libero morbi. Libero nam torquent rhoncus fames eu consequat pulvinar.</p>
-                                <p>Fermentum, urna torquent fermentum. Nulla lacus scelerisque penatibus sodales dictum quisque. Est urna vel commodo cubilia pede ipsum etiam. Et ac quis leo bibendum platea Mus nascetur. Potenti eleifend iaculis cras. Consequat erat suscipit Nullam parturient mauris sollicitudin. A massa ad imperdiet neque platea nonummy senectus.</p>
+                                <p>Some for now, we have deed of conveyance for others which is the final step to getting a C of O.</p>
                             </div>
                         </div>
                         <div class="simple-collaps px-4 py-3 bg-white border rounded mb-3">
-                            <span class="accordion text-secondary d-block">Which framework use to make the template responsive?</span>
+                            <span class="accordion text-secondary d-block">Do you allocate once someone pays?</span>
                             <div class="panel">
-                                <p>Eget justo aliquam vel rhoncus tortor suscipit. Etiam dis integer. Bibendum inceptos curae. Cras feugiat proin est vestibulum integer tincidunt dapibus quisque Urna. Nibh quisque per tellus dis fringilla fringilla habitasse
-                                    posuere aliquam quam ornare nibh odio commodo Curabitur. Nectus etiam. Aptent. Libero morbi. Libero nam torquent rhoncus fames eu consequat pulvinar.</p>
-                                <p>Fermentum, urna torquent fermentum. Nulla lacus scelerisque penatibus sodales dictum quisque. Est urna vel commodo cubilia pede ipsum etiam. Et ac quis leo bibendum platea Mus nascetur. Potenti eleifend iaculis cras. Consequat
-                                    erat suscipit Nullam parturient mauris sollicitudin. A massa ad imperdiet neque platea nonummy senectus.</p>
+                                <p>Yes, we allocate.</p>
                             </div>
                         </div>
                         <div class="simple-collaps px-4 py-3 bg-white border rounded mb-3">
-                            <span class="accordion text-secondary d-block">Is the template is W3 Validate?</span>
+                            <span class="accordion text-secondary d-block">If I buy now and I don't want to start building now, will your company allow me?</span>
                             <div class="panel">
-                                <p>Eget justo aliquam vel rhoncus tortor suscipit. Etiam dis integer. Bibendum inceptos curae. Cras feugiat proin est vestibulum integer tincidunt dapibus quisque Urna. Nibh quisque per tellus dis fringilla fringilla habitasse
-                                    posuere aliquam quam ornare nibh odio commodo Curabitur. Nectus etiam. Aptent. Libero morbi. Libero nam torquent rhoncus fames eu consequat pulvinar.</p>
-                                <p>Fermentum, urna torquent fermentum. Nulla lacus scelerisque penatibus sodales dictum quisque. Est urna vel commodo cubilia pede ipsum etiam. Et ac quis leo bibendum platea Mus nascetur. Potenti eleifend iaculis cras. Consequat
-                                    erat suscipit Nullam parturient mauris sollicitudin. A massa ad imperdiet neque platea nonummy senectus.</p>
+                                <p>Yes we will, but we also advice that you atleast fence your plots and avoid leaving it bushy.</p>
                             </div>
                         </div>
                         <div class="simple-collaps px-4 py-3 bg-white border rounded mb-3">
-                            <span class="accordion text-secondary d-block">Can I use the template to convert in WordPress?</span>
+                            <span class="accordion text-secondary d-block">Can you take me for sight inspection?</span>
                             <div class="panel">
-                                <p>Eget justo aliquam vel rhoncus tortor suscipit. Etiam dis integer. Bibendum inceptos curae. Cras feugiat proin est vestibulum integer tincidunt dapibus quisque Urna. Nibh quisque per tellus dis fringilla fringilla habitasse
-                                    posuere aliquam quam ornare nibh odio commodo Curabitur. Nectus etiam. Aptent. Libero morbi. Libero nam torquent rhoncus fames eu consequat pulvinar.</p>
-                                <p>Fermentum, urna torquent fermentum. Nulla lacus scelerisque penatibus sodales dictum quisque. Est urna vel commodo cubilia pede ipsum etiam. Et ac quis leo bibendum platea Mus nascetur. Potenti eleifend iaculis cras. Consequat
-                                    erat suscipit Nullam parturient mauris sollicitudin. A massa ad imperdiet neque platea nonummy senectus.</p>
-                            </div>
-                        </div>
-                        <div class="simple-collaps px-4 py-3 bg-white border rounded mb-3">
-                            <span class="accordion text-secondary d-block">Can I resale the template after modefy in local market?</span>
-                            <div class="panel">
-                                <p>Eget justo aliquam vel rhoncus tortor suscipit. Etiam dis integer. Bibendum inceptos curae. Cras feugiat proin est vestibulum integer tincidunt dapibus quisque Urna. Nibh quisque per tellus dis fringilla fringilla habitasse
-                                    posuere aliquam quam ornare nibh odio commodo Curabitur. Nectus etiam. Aptent. Libero morbi. Libero nam torquent rhoncus fames eu consequat pulvinar.</p>
-                                <p>Fermentum, urna torquent fermentum. Nulla lacus scelerisque penatibus sodales dictum quisque. Est urna vel commodo cubilia pede ipsum etiam. Et ac quis leo bibendum platea Mus nascetur. Potenti eleifend iaculis cras. Consequat
-                                    erat suscipit Nullam parturient mauris sollicitudin. A massa ad imperdiet neque platea nonummy senectus.</p>
-                            </div>
-                        </div>
-                        <div class="simple-collaps px-4 py-3 bg-white border rounded mb-3">
-                            <span class="accordion text-secondary d-block">How can I make new template by own, using the template source code?</span>
-                            <div class="panel">
-                                <p>Eget justo aliquam vel rhoncus tortor suscipit. Etiam dis integer. Bibendum inceptos curae. Cras feugiat proin est vestibulum integer tincidunt dapibus quisque Urna. Nibh quisque per tellus dis fringilla fringilla habitasse
-                                    posuere aliquam quam ornare nibh odio commodo Curabitur. Nectus etiam. Aptent. Libero morbi. Libero nam torquent rhoncus fames eu consequat pulvinar.</p>
-                                <p>Fermentum, urna torquent fermentum. Nulla lacus scelerisque penatibus sodales dictum quisque. Est urna vel commodo cubilia pede ipsum etiam. Et ac quis leo bibendum platea Mus nascetur. Potenti eleifend iaculis cras. Consequat
-                                    erat suscipit Nullam parturient mauris sollicitudin. A massa ad imperdiet neque platea nonummy senectus.</p>
-                            </div>
-                        </div>
-                        <div class="simple-collaps px-4 py-3 bg-white border rounded mb-3">
-                            <span class="accordion text-secondary d-block">What will I do, If I get any bug or error?</span>
-                            <div class="panel">
-                                <p>Eget justo aliquam vel rhoncus tortor suscipit. Etiam dis integer. Bibendum inceptos curae. Cras feugiat proin est vestibulum integer tincidunt dapibus quisque Urna. Nibh quisque per tellus dis fringilla fringilla habitasse
-                                    posuere aliquam quam ornare nibh odio commodo Curabitur. Nectus etiam. Aptent. Libero morbi. Libero nam torquent rhoncus fames eu consequat pulvinar.</p>
-                                <p>Fermentum, urna torquent fermentum. Nulla lacus scelerisque penatibus sodales dictum quisque. Est urna vel commodo cubilia pede ipsum etiam. Et ac quis leo bibendum platea Mus nascetur. Potenti eleifend iaculis cras. Consequat
-                                    erat suscipit Nullam parturient mauris sollicitudin. A massa ad imperdiet neque platea nonummy senectus.</p>
-                            </div>
-                        </div>
-                        <div class="simple-collaps px-4 py-3 bg-white border rounded mb-3">
-                            <span class="accordion text-secondary d-block">Do you have any video tutorial support?</span>
-                            <div class="panel">
-                                <p>Eget justo aliquam vel rhoncus tortor suscipit. Etiam dis integer. Bibendum inceptos curae. Cras feugiat proin est vestibulum integer tincidunt dapibus quisque Urna. Nibh quisque per tellus dis fringilla fringilla habitasse
-                                    posuere aliquam quam ornare nibh odio commodo Curabitur. Nectus etiam. Aptent. Libero morbi. Libero nam torquent rhoncus fames eu consequat pulvinar.</p>
-                                <p>Fermentum, urna torquent fermentum. Nulla lacus scelerisque penatibus sodales dictum quisque. Est urna vel commodo cubilia pede ipsum etiam. Et ac quis leo bibendum platea Mus nascetur. Potenti eleifend iaculis cras. Consequat
-                                    erat suscipit Nullam parturient mauris sollicitudin. A massa ad imperdiet neque platea nonummy senectus.</p>
+                                <p>Yes we can.</p>
                             </div>
                         </div>
                     </div>

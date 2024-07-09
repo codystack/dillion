@@ -29,7 +29,7 @@
                             <h3 class="widget-title mb-4">Company</h3>
                             <ul>
                                 <li><a href="about">About us</a></li>
-                                <li><a href="affiliates">FAQ</a></li>
+                                <li><a href="faq">FAQ</a></li>
                                 <li><a href="services">Contact us</a></li>
                                 <li><a href="#">Testimonials</a></li>
                             </ul>
