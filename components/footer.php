@@ -60,6 +60,8 @@
                             <li><a href="terms">Terms of Use </a></li>
                             <li>|</li>
                             <li><a href="privacy">Privacy Policy</a></li>
+                            <li>|</li>
+                            <li><a href="cookies">Cookies</a></li>
                         </ul>
                     </div>
                 </div>
