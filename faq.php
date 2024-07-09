@@ -5,12 +5,11 @@
         
         <?php include "./components/navbar.php"; ?>
 
-        <div class="page-banner-simple bg-secondary py-50" style="background-image: url(assets/images/background/bg-1.png); background-repeat: no-repeat; background-position: center center; background-size: cover;">
+        <div class="page-banner-simple bg-secondary py-50" style="background-image: url(assets/images/cookies.jpg); background-repeat: no-repeat; background-position: center center; background-size: cover;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <h3 class="banner-title text-white">Freequenly Ask Question</h3>
-                        <span class="banner-tagline font-medium text-white">We make strategies, design & development.</span>
+                        <h3 class="banner-title text-white">Freequenly Ask Questions</h3>
                     </div>
                 </div>
             </div>
