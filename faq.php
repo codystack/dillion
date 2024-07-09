@@ -22,7 +22,7 @@
                     <div class="col-lg-8 mx-auto">
                         <div class="simple-collaps px-4 py-3 bg-white border rounded mb-3">
                             <span class="accordion text-secondary d-block">How can i start?</span>
-                            <div class="panel" style="">
+                            <div class="panel">
                                 <p>Simple! Fill the expression of interest form, then make payment to any of our accounts and we will send a receipt to you and and also proceed with documentation.</p>
                             </div>
                         </div>
