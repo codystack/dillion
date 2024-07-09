@@ -59,7 +59,7 @@
                             <h3 class="down-line mb-3">7. Changes to This Privacy Policy</h3>
                             <p><strong>a.</strong> We may update this Privacy Policy periodically to reflect changes in our practices and legal requirements. We will notify you of any material changes by posting the updated policy on our website with a new effective date. Your continued use of our website after the posting of the updated policy constitutes your acceptance of the changes</p>
                             <h3 class="down-line mb-3">8. Contact Us</h3>
-                            <p><strong>a.</strong> If you have any questions about this Privacy Policy or our data practices, please contact us at <a href="mailto:hello@dillionproperty.com">hello@dillionproperty.com</a>.</p>
+                            <p><strong>a.</strong> If you have any questions about this Privacy Policy or our data practices, please contact us at <a href="mailto:hello@dillionproperty.ng">hello@dillionproperty.ng</a>.</p>
                         </div>
                     </div>
                 </div>

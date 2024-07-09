@@ -50,7 +50,7 @@
                             <h3 class="down-line mb-3">7. Changes to This Cookie Policy</h3>
                             <p><strong>a.</strong> We may update this Cookie Policy from time to time to reflect changes in our practices and legal requirements. We will notify you of any material changes by posting the updated policy on our website with a new effective date.</p>
                             <h3 class="down-line mb-3">8. Contact Us</h3>
-                            <p>If you have any questions about this Cookie Policy or our use of cookies, please contact us at <a href="mailto:hello@dillionproperty.com">hello@dillionproperty.com</a>.</p>
+                            <p>If you have any questions about this Cookie Policy or our use of cookies, please contact us at <a href="mailto:hello@dillionproperty.ng">hello@dillionproperty.ng</a>.</p>
                         </div>
                     </div>
                 </div>

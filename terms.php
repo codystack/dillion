@@ -22,7 +22,7 @@
                     <div class="col-lg-10 mx-auto">
                         <div class="bg-white p-40 border rounded">
                             <h3 class="down-line mb-3">Introduction</h3>
-                            <p>Welcome to Dillion Property website (www.dillionproperty.com).<br>
+                            <p>Welcome to Dillion Property website (www.dillionproperty.ng).<br>
                                 These Terms and Conditions govern your use of our Website and services. By accessing or using our Website, you agree to comply with and be bound by these Terms. Kindly be sure to agree with these terms before further proceeding to the use of this website.</p>
                             <h3 class="down-line mb-3">Use of Website</h3>
                             <h6 class="mb-3">Eligibility</h6>

@@ -41,7 +41,7 @@
                             <ul>
                                 <li>305 Cosy plaza Ada George by location junction, Mgbouba, Port Harcourt.</li>
                                 <li>+234 818 616 1570</li>
-                                <li>hello@dillionproperty.com</li>
+                                <li>hello@dillionproperty.ng</li>
                             </ul>
                         </div>
                     </div>

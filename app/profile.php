@@ -76,7 +76,7 @@ include "./components/sidebar.php";
                             </div>
                         </div>
                         
-                        <a href="mailto:support@dillionproperty.com" class="btn btn-primary">Request profile update</a>
+                        <a href="mailto:support@dillionproperty.ng" class="btn btn-primary">Request profile update</a>
                         <a href="#" id="<? echo $user_id; ?>" class="view_id_card btn btn-dark"><i class="fe fe-eye"></i> View ID Card</a>
 
                         <hr class="mt-4 mb-5">
@@ -89,7 +89,7 @@ include "./components/sidebar.php";
                                 </p>
                             </div>
                             <div class="col-auto">
-                                <a href="mailto:support@dillionproperty.com" class="btn btn-danger">Delete</a>
+                                <a href="mailto:support@dillionproperty.ng" class="btn btn-danger">Delete</a>
                             </div>
                         </div>
 

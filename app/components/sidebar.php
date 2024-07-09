@@ -88,7 +88,7 @@
                             </div>
                         </div>
 
-                        <a class="navbar-user-link" href="mailto:support@dillionproperty.com">
+                        <a class="navbar-user-link" href="mailto:support@dillionproperty.ng">
                             <span class="icon">
                                 <i class="fe fe-message-square"></i>
                             </span>
