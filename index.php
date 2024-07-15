@@ -4,54 +4,25 @@
 
     <div id="page_wrapper">
 
-        <?php include "./components/navbar-transparent.php"; ?>
+        <?php include "./components/navbar.php"; ?>
 
-        <div class="full-row p-0 overflow-hidden">
-
-            <div id="slider" class="overflow-hidden" style="width:1200px; height:780px; margin:0 auto;margin-bottom: 0px;">
-
-                <!-- Slide 1-->
-                <div class="ls-slide" data-ls="bgsize:cover; bgposition:50% 50%; duration:12000; transition2d:104; kenburnsscale:1.00;">
-                    <img width="1920" height="960" src="assets/images/slider/1.png" class="ls-bg" alt="" />
-                    <p style="font-size:20px; font-weight:400; top:320px; left:50%; font-family: 'Sen', sans-serif;" class="ls-l ls-hide-phone text-white" data-ls="offsetyin:100%; durationin:1500; delayin:500; clipin:0 0 100% 0; durationout:400; parallaxlevel:0;">Dillion Property LTD</p>
-                    <p style="font-size:48px; font-weight:700; top:370px; left:50%; font-family: 'Sen', sans-serif;" class="ls-l ls-hide-phone text-white" data-ls="offsetyin:100%; durationin:1500; delayin:1000; clipin:0 0 100% 0; durationout:400; parallaxlevel:0;">Making Everyone a Landlord</p>
-                    <p style="top:450px; left:50%; text-align:center; font-weight:400; font-style:normal; text-decoration:none; width:650px; font-size:18px; color:#ffffff; line-height:30px; white-space:normal;" class="ls-l ls-hide-phone" data-ls="offsetyin:100%; durationin:1500; delayin:1500; clipin:0 0 100% 0; durationout:400; parallaxlevel:0;">Looking for your dream house or property. Search here and select your best one from more than 1 million listing.</p>
-                    <a style="" class="ls-l ls-hide-phone" href="property-grid-v1.html" target="_self" data-ls="offsetyin:40; delayin:2000; clipin:0 0 100% 0; durationout:400; hover:true; hoverdurationin:300; hoveropacity:1; hoverbgcolor:#222; hovercolor:#aa8453;">
-                        <p style="font-weight:500; text-align:center; cursor:pointer; padding-right:35px; padding-left:35px; font-weight: 500; font-size:16px; font-family: 'Sen', sans-serif; line-height:40px; top:550px; left:50%; color:#fff; border-radius:30px; padding-top:10px; padding-bottom:10px; background:#aa8453; white-space:normal;"
-                            class="">Preview Listing</p>
-                    </a>
+        <div class="full-row p-0 overlay-dark vh-100" style="background-image: url('assets/images/hero.jpg'); background-position: center center; background-size: cover;">
+            <div class="container">
+                <div class="banner-search">
+                    <div class="row">
+                        <div class="col-lg-7 mx-auto position-relative text-center">
+                            <p style="font-size:20px; font-weight:400; font-family: 'Sen', sans-serif;" class="ls-l text-white" data-ls="offsetyin:100%; durationin:1500; delayin:500; clipin:0 0 100% 0; durationout:400; parallaxlevel:0;">Dillion Property LTD</p>
+                            <p style="font-size:48px; font-weight:700; font-family: 'Sen', sans-serif;" class="ls-l text-white">Making Everyone a Landlord</p>
+                            <p style="top:450px; left:50%; text-align:center; font-weight:400; font-style:normal; text-decoration:none; width:650px; font-size:18px; color:#ffffff; line-height:30px; white-space:normal;" class="ls-l ls-hide-phone" data-ls="offsetyin:100%; durationin:1500; delayin:1500; clipin:0 0 100% 0; durationout:400; parallaxlevel:0;">Looking for your dream house or property.</p>
+                            <a href="" class="btn btn-primary">Contact us</a>
+                        </div>
+                    </div>
                 </div>
-
-                <!-- Slide 2 -->
-                <div class="ls-slide" data-ls="bgsize:cover; bgposition:50% 50%; duration:12000; transition2d:104; kenburnsscale:1.00;">
-                    <img width="1920" height="960" src="assets/images/slider/2.png" class="ls-bg" alt="" />
-                    <p style="font-size:20px; font-weight:400; top:320px; left:50%; text-align:center; font-family: 'Sen', sans-serif;" class="ls-l ls-hide-phone text-white" data-ls="offsetyin:100%; durationin:1500; delayin:500; clipin:0 0 100% 0; durationout:400; parallaxlevel:0;">Real Estate Listing Template</p>
-                    <p style="font-size:48px; font-weight:700; top:370px; left:50%; text-align:center; font-family: 'Sen', sans-serif;" class="ls-l ls-hide-phone text-white" data-ls="offsetyin:100%; durationin:1500; delayin:1000; clipin:0 0 100% 0; durationout:400; parallaxlevel:0;">Amazing House Architect</p>
-                    <p style="top:450px; left:50%; text-align:center; font-weight:400; font-style:normal; text-decoration:none; width:650px; font-size:18px; color:#ffffff; line-height:30px; white-space:normal;" class="ls-l ls-hide-phone" data-ls="offsetyin:100%; durationin:1500; delayin:1500; clipin:0 0 100% 0; durationout:400; parallaxlevel:0;">Looking for your dream house or property. Search here and select your best one from more than 1 million listing.</p>
-                    <a style="" class="ls-l ls-hide-phone" href="property-grid-v1.html" target="_self" data-ls="offsetyin:40; delayin:2000; clipin:0 0 100% 0; durationout:400; hover:true; hoverdurationin:300; hoveropacity:1; hoverbgcolor:#222; hovercolor:#aa8453;">
-                        <p style="font-weight:500; text-align:center; cursor:pointer; padding-right:35px; padding-left:35px; font-weight: 500; font-size:16px; font-family: 'Sen', sans-serif; line-height:40px; top:550px; left:50%; color:#fff; border-radius:30px; padding-top:10px; padding-bottom:10px; background:#aa8453; white-space:normal;"
-                            class="">Preview Listing</p>
-                    </a>
-                </div>
-
-                <!-- Slide 3 -->
-                <div class="ls-slide" data-ls="bgsize:cover; bgposition:50% 50%; duration:12000; transition2d:104; kenburnsscale:1.00;">
-                    <img width="1920" height="960" src="assets/images/slider/14.png" class="ls-bg" alt="" />
-                    <p style="font-size:20px; font-weight:400; top:320px; left:32px; font-family: 'Sen', sans-serif;" class="ls-l ls-hide-phone text-white" data-ls="offsetyin:100%; durationin:1500; delayin:500; clipin:0 0 100% 0; durationout:400; parallaxlevel:0;">Real Estate Listing Template</p>
-                    <p style="font-size:48px; font-weight:700; top:370px; left:32px; font-family: 'Sen', sans-serif;" class="ls-l ls-hide-phone text-white" data-ls="offsetyin:100%; durationin:1500; delayin:1000; clipin:0 0 100% 0; durationout:400; parallaxlevel:0;">3D Interior Preview</p>
-                    <p style="top:450px; left:32px; text-align:left; font-weight:400; font-style:normal; text-decoration:none; width:650px; font-size:18px; color:#ffffff; line-height:30px; white-space:normal;" class="ls-l ls-hide-phone" data-ls="offsetyin:100%; durationin:1500; delayin:1500; clipin:0 0 100% 0; durationout:400; parallaxlevel:0;">Looking for your dream house or property. Search here and select your best one from more than 1 million listing.</p>
-                    <a style="" class="ls-l ls-hide-phone" href="property-grid-v1.html" target="_self" data-ls="offsetyin:40; delayin:2000; clipin:0 0 100% 0; durationout:400; hover:true; hoverdurationin:300; hoveropacity:1; hoverbgcolor:#222; hovercolor:#aa8453;">
-                        <p style="font-weight:500; text-align:center; cursor:pointer; padding-right:35px; padding-left:35px; font-weight: 500; font-size:16px; font-family: 'Sen', sans-serif; line-height:40px; top:550px; left:32px; color:#fff; border-radius:30px; padding-top:10px; padding-bottom:10px; background:#aa8453; white-space:normal;"
-                            class="">Preview Listing</p>
-                    </a>
-                </div>
-
             </div>
         </div>
 
         
-        <!-- =============== About ================-->
-        <div class="full-row">
+        <!-- <div class="full-row">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -75,7 +46,7 @@
                 </div>
             </div>
         </div>
-        <!-- =============== About ================-->
+        
         <div class="full-row p-0">
             <div class="container">
                 <div class="row">
@@ -83,8 +54,7 @@
                 </div>
             </div>
         </div>
-
-        <!-- =============== Counting ================-->
+        
         <div class="full-row">
             <div class="container">
                 <div class="row row-cols-lg-3 row-cols-1">
@@ -109,9 +79,7 @@
                 </div>
             </div>
         </div>
-        <!-- =============== Counting ================-->
-
-        <!--============== Recent Property Start ==============-->
+        
         <div class="full-row bg-light">
             <div class="container">
                 <div class="row">
@@ -128,7 +96,6 @@
                     <div class="col">
                         <div class="3block-carusel nav-disable owl-carousel">
                             <div class="item">
-                                <!-- Property Grid -->
                                 <div class="property-grid-1 property-block bg-white transation-this">
                                     <div class="overflow-hidden position-relative transation thumbnail-img bg-secondary hover-img-zoom">
                                         <div class="cata position-absolute"><span class="sale bg-secondary text-white">For Sale</span></div>
@@ -160,7 +127,6 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Property Grid -->
                                 <div class="property-grid-1 property-block bg-white transation-this">
                                     <div class="overflow-hidden position-relative transation thumbnail-img bg-secondary hover-img-zoom">
                                         <div class="cata position-absolute">
@@ -195,7 +161,6 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Property Grid -->
                                 <div class="property-grid-1 property-block bg-white transation-this">
                                     <div class="overflow-hidden position-relative transation thumbnail-img bg-secondary hover-img-zoom">
                                         <div class="cata position-absolute">
@@ -229,7 +194,6 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Property Grid -->
                                 <div class="property-grid-1 property-block bg-white transation-this">
                                     <div class="overflow-hidden position-relative transation thumbnail-img bg-secondary hover-img-zoom">
                                         <div class="cata position-absolute">
@@ -263,7 +227,6 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Property Grid -->
                                 <div class="property-grid-1 property-block bg-white transation-this">
                                     <div class="overflow-hidden position-relative transation thumbnail-img bg-secondary hover-img-zoom">
                                         <div class="cata position-absolute"><span class="sale bg-secondary text-white">For Sale</span></div>
@@ -295,7 +258,6 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Property Grid -->
                                 <div class="property-grid-1 property-block bg-white transation-this">
                                     <div class="overflow-hidden position-relative transation thumbnail-img bg-secondary hover-img-zoom">
                                         <div class="cata position-absolute">
@@ -334,7 +296,7 @@
                 </div>
             </div>
         </div>
-        <!--============== Recent Property End ==============-->
+        
         
         <div class="full-row bg-secondary">
             <div class="container">
@@ -404,11 +366,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <?php include "./components/testimonial.php"; ?>
+        <?php //include "./components/testimonial.php"; ?>
 
-        <div class="full-row bg-secondary">
+        <!-- <div class="full-row bg-secondary">
             <div class="container">
                 <div class="row">
                     <div class="col mb-5">
@@ -419,7 +381,6 @@
                     <div class="col">
                         <div class="3block-carusel nav-disable owl-carousel">
                             <div class="item">
-                                <!-- Property Grid -->
                                 <div class="property-grid-1 property-block bg-white transation-this">
                                     <div class="overflow-hidden position-relative transation thumbnail-img bg-secondary hover-img-zoom">
                                         <div class="cata position-absolute"><span class="sale bg-secondary text-white">For Sale</span></div>
@@ -451,7 +412,6 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Property Grid -->
                                 <div class="property-grid-1 property-block bg-white transation-this">
                                     <div class="overflow-hidden position-relative transation thumbnail-img bg-secondary hover-img-zoom">
                                         <div class="cata position-absolute">
@@ -486,7 +446,6 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Property Grid -->
                                 <div class="property-grid-1 property-block bg-white transation-this">
                                     <div class="overflow-hidden position-relative transation thumbnail-img bg-secondary hover-img-zoom">
                                         <div class="cata position-absolute">
@@ -520,7 +479,6 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Property Grid -->
                                 <div class="property-grid-1 property-block bg-white transation-this">
                                     <div class="overflow-hidden position-relative transation thumbnail-img bg-secondary hover-img-zoom">
                                         <div class="cata position-absolute">
@@ -554,7 +512,6 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Property Grid -->
                                 <div class="property-grid-1 property-block bg-white transation-this">
                                     <div class="overflow-hidden position-relative transation thumbnail-img bg-secondary hover-img-zoom">
                                         <div class="cata position-absolute"><span class="sale bg-secondary text-white">For Sale</span></div>
@@ -586,7 +543,6 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <!-- Property Grid -->
                                 <div class="property-grid-1 property-block bg-white transation-this">
                                     <div class="overflow-hidden position-relative transation thumbnail-img bg-secondary hover-img-zoom">
                                         <div class="cata position-absolute">
@@ -726,7 +682,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <?php include "./components/register-cta.php"; ?>
 

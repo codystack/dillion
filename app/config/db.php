@@ -12,11 +12,11 @@ if ($WEBSITE_ENVIRONMENT == "Development") {
     error_reporting(E_ALL ^ E_NOTICE); // turn ON showing errors
 } else {
     $host = "localhost";
-    $user = "webiirem_dillion";
+    $user = "dillionp_app";
     $password = "$10Password!!";
-    $database = "webiirem_dillion";
+    $database = "dillionp_app";
     define("APP_ENVIRONMENT", "Production");
-    define("APP_BASE_URL", "https://www.dillionproperty.com");
+    define("APP_BASE_URL", "https://www.dillionproperty.ng");
     #error_reporting(0); // turn OFF showing errors
     error_reporting(E_ALL ^ E_NOTICE); // turn ON showing errors
 }

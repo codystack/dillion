@@ -14,12 +14,16 @@
                                             <a class="nav-link" href="./">Home</a>
                                         </li>
 
-                                        <li class="nav-item dropdown">
+                                        <!-- <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#">Properties</a>
                                             <ul class="dropdown-menu">
                                                 <li><a class="dropdown-item" href="sale">Sale</a></li>
                                                 <li><a class="dropdown-item" href="rent">Rent</a></li>
                                             </ul>
+                                        </li> -->
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="properties">Properties</a>
                                         </li>
 
                                         <li class="nav-item">

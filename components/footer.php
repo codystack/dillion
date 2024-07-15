@@ -17,9 +17,9 @@
                         <div class="footer-widget footer-nav mb-4">
                             <h3 class="widget-title mb-4">Quick Links</h3>
                             <ul>
-                                <li><a href="how-it-works">How it works</a></li>
-                                <li><a href="affiliates">Affiliates</a></li>
-                                <li><a href="affiliate-sign-up">Become an affiliate</a></li>
+                                <li><a href="#">How it works</a></li>
+                                <li><a href="#">Affiliates</a></li>
+                                <li><a href="#">Become an affiliate</a></li>
                                 <li><a href="services">Our services</a></li>
                             </ul>
                         </div>
@@ -40,7 +40,7 @@
                             <h3 class="widget-title mb-4">Contact Info</h3>
                             <ul>
                                 <li>305 Cosy plaza Ada George by location junction, Mgbouba, Port Harcourt.</li>
-                                <li>+234 818 616 1570</li>
+                                <li>+234 811 755 2328</li>
                                 <li>hello@dillionproperty.ng</li>
                             </ul>
                         </div>

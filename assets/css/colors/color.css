@@ -58,7 +58,7 @@ Theme Color All Codes Variable
 }
 
 :root {
-    --theme-dark-opacity-color: rgba(24, 26, 29, .8);
+    --theme-dark-opacity-color: rgba(0, 0, 0, .3);
     /* theme dark opacity color */
 }
 

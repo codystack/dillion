@@ -14,14 +14,18 @@
                                             <a class="nav-link" href="./">Home</a>
                                         </li>
 
-                                        <li class="nav-item dropdown">
+                                        <!-- <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#">Properties</a>
                                             <ul class="dropdown-menu">
                                                 <li><a class="dropdown-item" href="sale">Sale</a></li>
                                                 <li><a class="dropdown-item" href="rent">Rent</a></li>
                                             </ul>
-                                        </li>
+                                        </li> -->
 
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="properties">Properties</a>
+                                        </li>
+                                        
                                         <li class="nav-item">
                                             <a class="nav-link" href="about">About us</a>
                                         </li>
@@ -35,7 +39,7 @@
                                         </li>
                                     </ul>
 									<ul class="navbar-nav user-button sm-mx-none ps-3">
-                                        <li class="nav-item inactive">
+                                        <li class="nav-item">
                                             <a class="nav-link" href="app"><i class="fas fa-user me-1"></i> Login</a>
                                         </li>
                                     </ul>
