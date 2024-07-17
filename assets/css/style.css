@@ -1522,7 +1522,7 @@ Property Block Style Start
 }
 .property-grid-1 .listing-title,
 .property-grid-1 .listing-title a {
-    font-weight: 500;
+    font-weight: 800;
     color: var(--theme-dark-color);
     font-size: 18px;
     margin-bottom: 0;

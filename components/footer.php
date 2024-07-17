@@ -68,6 +68,7 @@
             </div>
         </div>
 
+        <div class="scroll-top-vertical xs-mx-none" id="scroll">Go Top <i class="ms-2 fa-solid fa-arrow-right-long"></i></div>
 
     </div>
 

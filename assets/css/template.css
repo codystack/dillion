@@ -862,7 +862,7 @@ a.text-dark:focus {
     z-index: 100;
     display: none;
     cursor: pointer;
-    background-color: blue;
+    background-color: #ed1c25;
     padding: 0 12px;
     color: #fff;
 }
