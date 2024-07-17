@@ -26,36 +26,35 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
-                        <h1 class="text-dark mb-0">Our mission is to redefine real estate for the customer's</h1>
+                        <h1 class="text-dark mb-0">You are not buying a house, you are buying a lifestyle.</h1>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-5">
                         <div class="py-2">
-                            <p>Finderland is one of the world's leading property agents. Our experience spans the globe.</p>
-                            <p>We have been advising on buying, selling and renting property for over 160 years, from country cottages to city centre offices, agricultural land to new-build developments.</p>
+                            <p>Our mission is to deliver unparalleled real estate services that exceed our clients' expectations. We aim to create value through innovative solutions, expert advice, and unwavering dedication to excellence. At Dillion Property, we believe that our success is measured by the success of our clients, and we are committed to building long-term relationships based on trust and mutual benefit.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 d-flex justify-content-md-end">
+                    <div class="col-lg-3 d-flex ps-5">
                         <ul class="list-style-tick d-flex flex-column my-2">
-                            <li>Only pay when you publish</li>
-                            <li>Full featured event app</li>
-                            <li>Unlimited featured use</li>
-                            <li>24/7 supports</li>
-                            <li>Event analytics</li>
+                            <li>Accountability</li>
+                            <li>Responsibility</li>
+                            <li>Integrity</li>
+                            <li>Service</li>
+                            <li>Excellence</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
         
-        <div class="full-row p-0">
+        <!-- <div class="full-row p-0">
             <div class="container">
                 <div class="row">
                     <div class="col-12"><hr></div>
                 </div>
             </div>
-        </div>
+        </div> -->
         
-        <div class="full-row">
+        <!-- <div class="full-row">
             <div class="container">
                 <div class="row row-cols-lg-3 row-cols-1">
                     <div class="col">
@@ -78,7 +77,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         
         <div class="full-row bg-light">
             <div class="container">
@@ -86,9 +85,9 @@
                     <div class="col mb-4">
                         <div class="align-items-center d-flex">
                             <div class="me-auto">
-                                <h2 class="d-table">Recent Properties</h2>
+                                <h2 class="d-table">Our Recent <span class="text-primary">Properties</span></h2>
                             </div>
-                            <a href="property-grid-v1.html" class="ms-auto btn-link">View All Properties</a>
+                            <a href="properties" class="ms-auto btn-link">View All Properties</a>
                         </div>
                     </div>
                 </div>
@@ -298,7 +297,7 @@
         </div>
         
         
-        <div class="full-row bg-secondary">
+        <!-- <div class="full-row bg-secondary">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -366,7 +365,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <?php //include "./components/testimonial.php"; ?>
 
