@@ -14,7 +14,7 @@
                             <p style="font-size:20px; font-weight:400; font-family: 'Sen', sans-serif;" class="ls-l text-white" data-ls="offsetyin:100%; durationin:1500; delayin:500; clipin:0 0 100% 0; durationout:400; parallaxlevel:0;">Dillion Property LTD</p>
                             <p style="font-size:48px; font-weight:700; font-family: 'Sen', sans-serif;" class="ls-l text-white">Making Everyone a Landlord</p>
                             <p style="top:450px; left:50%; text-align:center; font-weight:400; font-style:normal; text-decoration:none; width:650px; font-size:18px; color:#ffffff; line-height:30px; white-space:normal;" class="ls-l ls-hide-phone" data-ls="offsetyin:100%; durationin:1500; delayin:1500; clipin:0 0 100% 0; durationout:400; parallaxlevel:0;">Looking for your dream house or property.</p>
-                            <a href="" class="btn btn-primary">Contact us</a>
+                            <a href="" class="btn btn-primary">Let's find you a property</a>
                         </div>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
         </div>
 
         
-        <!-- <div class="full-row">
+        <div class="full-row">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -366,7 +366,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <?php //include "./components/testimonial.php"; ?>
 

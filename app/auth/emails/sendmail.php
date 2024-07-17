@@ -2,8 +2,8 @@
 require_once "./vendor/autoload.php";
 
 // Create the Transport
-$transport = (new Swift_SmtpTransport('wghp10.wghservers.com', 465, 'ssl'))
-    ->setUsername('noreply@easyhnf.com')
+$transport = (new Swift_SmtpTransport('wghp7.wghservers.com', 465, 'ssl'))
+    ->setUsername('noreply@dillionproperty.ng')
     ->setPassword('$10Password!!')
 ;
 
@@ -77,7 +77,7 @@ function sendVerificationEmail($userEmail, $token, $first_name, $last_name)
                                         <tbody>
                                             <tr>
                                                 <td class="" align="center" valign="top" style="padding:30px 40px">
-                                                    <a href="https://dillionproperty.com" style="text-decoration:none" target="_blank">
+                                                    <a href="https://dillionproperty.ng" style="text-decoration:none" target="_blank">
                                                     <img src="https://i.imgur.com/t0vE09Z.png" width="200" height="" alt="" style="max-width:100%;height:auto;border:0;line-height:100%;outline:0;color:#1b1b1b" class="CToWUd"></a>
                                                 </td>
                                             </tr>
@@ -103,7 +103,7 @@ function sendVerificationEmail($userEmail, $token, $first_name, $last_name)
                                         <p class=\'mgb-1x\' style="font-family:\'Helvetica\',sans-serif;font-size:14px;line-height:20px;letter-spacing:-0.2px;text-align:center"><b>Hello '. $first_name .',</b></p>
                                         <p class=\'mgb-1x\' style="font-family:\'Helvetica\',sans-serif;font-size:14px;line-height:20px;letter-spacing:-0.2px;text-align:center">Welcome to the <b>Dillion®</b> family,<br>By clicking on the button below, you will be verifying your email address.</p>
                                         <p style="text-align:center;padding-bottom:35px;font-family:\'Helvetica\',Helvetica,Arial,sans-serif;font-size:14px;">
-                                        <a href="http://localhost/dillion/app/verify_email?token=' . $token . '" class=\'btn\' style="color: #ffffff; text-decoration: none;">Verify Account</a>
+                                        <a href="https://dillionproperty.ng/app/verify_email?token=' . $token . '" class=\'btn\' style="color: #ffffff; text-decoration: none;">Verify Account</a>
                                         </p>
                                     </td>
                                 </tr>
@@ -193,7 +193,7 @@ function sendVerificationEmail($userEmail, $token, $first_name, $last_name)
                                                                             <tbody>
                                                                                 <tr>
                                                                                     <td style="font-family:\'Helvetica\',sans-serif;font-size:14px;font-weight:500;line-height:24px" valign="top">
-                                                                                        <a href="mailto:hello@dillionproperty.com" style="text-decoration:none;color:#ed1c24" target="_blank">Send us an email</a>
+                                                                                        <a href="mailto:hello@dillionproperty.ng" style="text-decoration:none;color:#ed1c24" target="_blank">Send us an email</a>
                                                                                     </td>
                                                                                 </tr>
                                                                             </tbody>
@@ -245,7 +245,7 @@ function sendVerificationEmail($userEmail, $token, $first_name, $last_name)
 
     // Create a message
     $message = (new Swift_Message('Welcome to the Dillion family👏'))
-        ->setFrom(['noreply@easyhnf.com' => 'Dillion Property®'])
+        ->setFrom(['noreply@dillionproperty.ng' => 'Dillion Property®'])
         ->setTo($userEmail)
         ->setBody($body, 'text/html');
 

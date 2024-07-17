@@ -28,6 +28,12 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-md-5 col-lg-6 col-xl-6 px-lg-6 my-5 align-self-center">
                     <div class="px-6">
+                        <div class="mb-4 text-center">
+                            <a href="../">
+                                <img src="./assets/img/d-logo.png"width="150" alt="logo">
+                            </a>
+                        </div>
+                        
                         <h1 class="display-4 text-center mb-3">
                             Create your Dillion account
                         </h1>

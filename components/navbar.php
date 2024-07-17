@@ -1,4 +1,4 @@
-        <header class="header-style nav-on-top bg-white">
+        <header class="header-style header-fixed nav-on-top bg-white">
             <div class="main-nav">
                 <div class="container">
                     <div class="row">
@@ -31,6 +31,10 @@
                                         </li>
 
                                         <li class="nav-item">
+                                            <a class="nav-link" href="#">Gallery</a>
+                                        </li>
+
+                                        <li class="nav-item">
                                             <a class="nav-link" href="faq">FAQ</a>
                                         </li>
 
@@ -38,12 +42,7 @@
                                             <a class="nav-link" href="contact">Contact us</a>
                                         </li>
                                     </ul>
-									<ul class="navbar-nav user-button sm-mx-none ps-3">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="app"><i class="fas fa-user me-1"></i> Login</a>
-                                        </li>
-                                    </ul>
-                                    <a href="app/sign-up" class="btn btn-primary add-listing-btn">+ Create Account</a>
+                                    <a href="app" class="btn btn-primary add-listing-btn">+ Login | Signup</a>
                                 </div>
                             </nav>
                         </div>

@@ -53,5 +53,7 @@
             </div>
         </div>
 
+        <?php include "./components/team.php"; ?>
+
         
 <?php include "./components/footer.php"; ?>

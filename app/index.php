@@ -29,6 +29,11 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-md-5 col-lg-6 col-xl-6 px-lg-6 my-5 align-self-center">
                     <div class="px-6">
+                        <div class="mb-4 text-center">
+                            <a href="../">
+                                <img src="./assets/img/d-logo.png"width="150" alt="logo">
+                            </a>
+                        </div>
                         <h1 class="display-4 text-center mb-3">
                             Login to your account
                         </h1>
@@ -94,7 +99,7 @@
                 </div>
                 <div class="col-12 col-md-7 col-lg-6 col-xl-6 d-none d-lg-block">
 
-                    <div class="bg-cover h-100 min-vh-100 mt-n1 me-n3" style="background-image: url(assets/img/banner-bg.jpeg);"></div>
+                    <div class="bg-cover h-100 min-vh-100 mt-n1 me-n3" style="background-image: url(assets/img/land.jpg); background-position: left;"></div>
 
                 </div>
             </div> 
