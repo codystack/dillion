@@ -10,7 +10,7 @@
             <div class="container">
                 <div class="row justify-content-md-center" style="padding-top: 100px; padding-bottom: 130px;">
                     <div class="col-lg-10 position-relative z-index-9">
-                        <h1 class="text-center mx-auto text-white">Properties</h1>
+                        <h1 class="text-center mx-auto text-white">Servi</h1>
                         <span class="d-table mx-auto text-white font-medium">Don't wait to buy real estate, buy real estate and wait.</span>
                     </div>
                 </div>

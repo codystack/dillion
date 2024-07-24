@@ -76,7 +76,7 @@ include "./components/sidebar.php";
                             </div>
                         </div>
                         
-                        <a href="mailto:support@dillionproperty.ng" class="btn btn-primary">Request profile update</a>
+                        <a href="mailto:support@dillionproperty.ng?subject=I%20want%20my%20profile%20modified" class="btn btn-primary">Request profile update</a>
                         <a href="#" id="<? echo $user_id; ?>" class="view_id_card btn btn-dark"><i class="fe fe-eye"></i> View ID Card</a>
 
                         <hr class="mt-4 mb-5">
@@ -89,7 +89,7 @@ include "./components/sidebar.php";
                                 </p>
                             </div>
                             <div class="col-auto">
-                                <a href="mailto:support@dillionproperty.ng" class="btn btn-danger">Delete</a>
+                                <a href="mailto:support@dillionproperty.ng?subject=I%20want%20my%20account%20deleted" class="btn btn-danger">Delete</a>
                             </div>
                         </div>
 
@@ -107,11 +107,8 @@ include "./components/sidebar.php";
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content shadow-3">
                 <div class="modal-body p-0" id="id_card_info">
-                    <?php @include("../view/view-pastor.php");?>
+                    <?php include("./view/view-id-card.php");?>
                 </div>
-                <!-- <div class="modal-footer">
-                    <button type="button" class="btn btn-sm btn-danger" data-bs-dismiss="modal">Close</button>
-                </div> -->
             </div>
         </div>
     </div>

@@ -6,7 +6,7 @@
                             <div class="footer-logo mb-4">
                                 <a href="./"><img src="assets/images/d-logo-white.png" alt="Logo" /></a>
                             </div>
-                            <p>Dillion Property is a premier real estate consulting firm dedicated to providing exceptional service and expertise in the real estate sector.</p>
+                            <p>Dillion Property is a leading real estate consulting firm dedicated to providing exceptional service and expertise in the real estate sector.</p>
                         </div>
                         <div class="footer-widget media-widget mb-4">
                             <a href="https://www.facebook.com/dillionpropertyltd" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -17,9 +17,8 @@
                         <div class="footer-widget footer-nav mb-4">
                             <h3 class="widget-title mb-4">Quick Links</h3>
                             <ul>
-                                <li><a href="#">How it works</a></li>
                                 <li><a href="#">Affiliates</a></li>
-                                <li><a href="#">Become an affiliate</a></li>
+                                <li><a href="affiliate.dillionproperty.ng">Become an affiliate</a></li>
                                 <li><a href="services">Our services</a></li>
                             </ul>
                         </div>
@@ -31,7 +30,6 @@
                                 <li><a href="about">About us</a></li>
                                 <li><a href="faq">FAQ</a></li>
                                 <li><a href="services">Contact us</a></li>
-                                <li><a href="#">Testimonials</a></li>
                             </ul>
                         </div>
                     </div>

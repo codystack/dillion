@@ -13,7 +13,7 @@
                         <h3 class="text-secondary">Contact</h3>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb mb-0 bg-transparent p-0">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="./">Home</a></li>
                                 <li class="breadcrumb-item active text-primary" aria-current="page">Contact</li>
                             </ol>
                         </nav>
@@ -34,7 +34,7 @@
                                     <h6 class="mb-0">Office Address:</h6> 305 Cosy plaza Ada George by location junction, Mgbouba, Port Harcourt.
                                 </li>
                                 <li class="mb-3">
-                                    <h6>Contact Number:</h6> +234 811 755 2328
+                                    <h6>Contact Number:</h6> +234 811 755 2328<br> +234 703 8193 399<br> +234 814 052 6369
                                 </li>
                                 <li class="mb-3">
                                     <h6>Email Address:</h6> hello@dillionproperty.com

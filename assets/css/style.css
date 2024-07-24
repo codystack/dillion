@@ -3195,3 +3195,7 @@ Responsive Style Start
 	  transform: rotate(360deg); 
 	}
   }
+
+  .rounded {
+	border-radius: 1.25rem !important;
+  }

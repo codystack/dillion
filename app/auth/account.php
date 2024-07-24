@@ -17,6 +17,7 @@ if (isset($_POST['user_registration'])) {
     $password = $conn->real_escape_string($_POST['password']);
     $phone = $conn->real_escape_string($_POST['phone']);
     $status = $conn->real_escape_string($_POST['status']);
+    $affiliate_code = $conn->real_escape_string($_POST['affiliate_code']);
     $token = bin2hex(random_bytes(50)); // generate unique token
 
     $check_user_query = "SELECT * FROM users WHERE email='$email'";
@@ -26,8 +27,8 @@ if (isset($_POST['user_registration'])) {
     }else {
         // Finally, register user if there are no errors in the form
         $password = sha1($password);//encrypt the password before saving in the database
-        $query = "INSERT INTO users (first_name, last_name, email, password, phone, token, status, verified) 
-  			        VALUES('$first_name', '$last_name', '$email', '$password', '$phone', '$token', 'Inactive', '0')";
+        $query = "INSERT INTO users (first_name, last_name, email, password, phone, token, status, affiliate_code, verified) 
+  			        VALUES('$first_name', '$last_name', '$email', '$password', '$phone', '$token', 'Inactive', '$affiliate_code', '0')";
         mysqli_query($conn, $query);
         if (mysqli_affected_rows($conn) > 0) {
             sendVerificationEmail($email, $token, $first_name, $last_name);
@@ -70,16 +71,20 @@ if (isset($_POST['user_login'])) {
         $_SESSION['email'] = $email;
         $_SESSION['phone'] = $phone;
         $_SESSION['status'] = $status;
+        $_SESSION['verified'] = $verified;
         $_SESSION['user_id'] = $user_id;
         if ($verified == 0){
             $_SESSION['error_message'] = "Please verify your email";
         }
-        if ($status == 'Inactive'){
-            $_SESSION['success_message'] = "Complete account setup";
-            header('location: complete-sign-up');
-        }elseif ($status == 'Active' && $verified == 1){
-            $_SESSION['success_message'] = "Login Successfull";
-            header('location: dashboard');
+        if ($verified == 1){
+            if ($status == 'Inactive'){
+                $_SESSION['success_message'] = "Complete account setup";
+                header('location: complete-sign-up');
+            }
+            if ($status == 'Active'){
+                $_SESSION['success_message'] = "Login Successfull";
+                header('location: dashboard');
+            }
         }
     }else {
         $_SESSION['error_message'] = "Incorrect Login Details";

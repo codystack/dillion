@@ -87,10 +87,17 @@
                                     </div>
                                 </div>
 
-                                <div class="col-12">
+                                <div class="col-md-8 col-12">
                                     <div class="form-floating mb-4">
                                         <input type="email" class="form-control" id="floatingInput" name="email" placeholder="name@example.com">
                                         <label for="floatingInput">Email address</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-12">
+                                    <div class="form-floating mb-4">
+                                        <input type="text" class="form-control" id="floatingInput" name="affiliate_code" placeholder="name@example.com">
+                                        <label for="floatingInput">Referral Code</label>
                                     </div>
                                 </div>
 
@@ -115,9 +122,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-7 col-lg-6 col-xl-6 d-none d-lg-block">
-
-                    <div class="bg-cover h-100 min-vh-100 mt-n1 me-n3" style="background-image: url(assets/img/login-bg.jpg);"></div>
-
+                    <div class="bg-cover h-100 min-vh-100 mt-n1 me-n3" style="background-image: url(assets/img/land.jpg); background-position: left;"></div>
                 </div>
             </div>
         </div>

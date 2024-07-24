@@ -22,9 +22,6 @@
                     <div class="col">
                         <div class="gallery-one">
                             <div class="photo-overlay">
-                                <a href="#quick-view" class="quick-view transation xy-center">
-                                    <span class="flaticon-eye-1 text-primary"></span>
-                                </a>
                                 <a href="assets/images/gallery/1.jpeg" class="photo-view transation xy-center" data-fancybox="gallery">
                                     <span class="flaticon-zoom-in"></span>
                                 </a>
@@ -35,9 +32,6 @@
                     <div class="col">
                         <div class="gallery-one">
                             <div class="photo-overlay">
-                                <a href="#quick-view" class="quick-view transation xy-center">
-                                    <span class="flaticon-eye-1 text-primary"></span>
-                                </a>
                                 <a href="assets/images/gallery/2.jpeg" class="photo-view transation xy-center" data-fancybox="gallery">
                                     <span class="flaticon-zoom-in"></span>
                                 </a>
@@ -48,9 +42,6 @@
                     <div class="col">
                         <div class="gallery-one">
                             <div class="photo-overlay">
-                                <a href="#quick-view" class="quick-view transation xy-center">
-                                    <span class="flaticon-eye-1 text-primary"></span>
-                                </a>
                                 <a href="assets/images/gallery/3.jpeg" class="photo-view transation xy-center" data-fancybox="gallery">
                                     <span class="flaticon-zoom-in"></span>
                                 </a>

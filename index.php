@@ -14,7 +14,8 @@
                             <p style="font-size:20px; font-weight:400; font-family: 'Sen', sans-serif;" class="ls-l text-white" data-ls="offsetyin:100%; durationin:1500; delayin:500; clipin:0 0 100% 0; durationout:400; parallaxlevel:0;">Dillion Property LTD</p>
                             <p style="font-size:48px; font-weight:700; font-family: 'Sen', sans-serif;" class="ls-l text-white">Making Everyone a Landlord</p>
                             <p style="top:450px; left:50%; text-align:center; font-weight:400; font-style:normal; text-decoration:none; width:650px; font-size:18px; color:#ffffff; line-height:30px; white-space:normal;" class="ls-l ls-hide-phone" data-ls="offsetyin:100%; durationin:1500; delayin:1500; clipin:0 0 100% 0; durationout:400; parallaxlevel:0;">Looking for your dream house or property.</p>
-                            <a href="" class="btn btn-primary">Let's find you a property</a>
+                            <a href="properties" class="btn btn-primary">Let's find you a property</a>
+                            <a href="contact" class="btn btn-light">Talk to an agent</a>
                         </div>
                     </div>
                 </div>
@@ -106,6 +107,7 @@
                                         <ul class="d-flex quantity font-fifteen">
                                             <li title="Area"><span><i class="fa-solid fa-vector-square"></i></span>465 SQM</li>
                                             <li title="Area"><span><i class="fa-solid fa-file-circle-check"></i></span>C of O</li>
+                                            <li title="Area"><span><i class="fa-solid fa-hands-holding-circle"></i></span> 100 Plots</li>
                                         </ul>
                                     </div>
                                     <div class="d-flex align-items-center post-meta mt-2 py-3 px-4 border-top">
@@ -193,7 +195,7 @@
             </div>
         </div> -->
 
-        <?php //include "./components/testimonial.php"; ?>
+        <?php include "./components/testimonial.php"; ?>
 
         <!-- <div class="full-row bg-secondary">
             <div class="container">

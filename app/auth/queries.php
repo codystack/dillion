@@ -10,7 +10,6 @@ if (isset($_POST['complete_registration'])) {
     $gender = $conn->real_escape_string($_POST['gender']);
     $nin = $conn->real_escape_string($_POST['nin']);
     $address = $conn->real_escape_string($_POST['address']);
-    $picture  = $conn->real_escape_string($_POST['picture']);
     $proof_of_identification_path = $conn->real_escape_string('upload/'.$_FILES['proof_of_identification']['name']);
 
     if (file_exists($proof_of_identification_path)){
