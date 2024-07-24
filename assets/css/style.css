@@ -3199,3 +3199,7 @@ Responsive Style Start
   .rounded {
 	border-radius: 1.25rem !important;
   }
+
+  .rounded1 {
+    border-radius: .25rem !important;
+}
