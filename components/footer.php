@@ -18,7 +18,7 @@
                             <h3 class="widget-title mb-4">Quick Links</h3>
                             <ul>
                                 <li><a href="#">Affiliates</a></li>
-                                <li><a href="affiliate.dillionproperty.ng">Become an affiliate</a></li>
+                                <li><a href="https://affiliate.dillionproperty.ng">Become an affiliate</a></li>
                                 <li><a href="services">Our services</a></li>
                             </ul>
                         </div>
