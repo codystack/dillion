@@ -43,7 +43,7 @@
                             <a class="nav-link <?php if($page=='Documents'){echo 'active';}?>" href="documents"><i class="fe fe-file-text"></i> Documents</a>
                         </li>
                         <li class="nav-item mt-3">
-                            <a class="nav-link <?php if($page=='Trade'){echo 'active';}?>" href="trade"><i class="fe fe-shopping-cart"></i> Trade</a>
+                            <a class="nav-link <?php if($page=='Transactions'){echo 'active';}?>" href="transactions"><i class="fe fe-dollar-sign"></i> Transactions</a>
                         </li>
                     </ul>
 

@@ -1703,6 +1703,7 @@ Property Block Style Start
 	position: relative;
 	overflow: hidden;
 	height: 100%;
+	border-radius: 0.5rem;
 }
 .property-block .post-meta {
 	width: 100%

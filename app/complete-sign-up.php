@@ -90,6 +90,7 @@ require_once "./auth/queries.php";
                                                 <div class="col-md-6 col-12">
                                                     <div class="form-floating mb-4">
                                                         <select class="form-control" name="gender" required>
+                                                            <option selected disabled value="">Select Gender</option>
                                                             <option>Male</option>
                                                             <option>Female</option>
                                                         </select>

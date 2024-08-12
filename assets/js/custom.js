@@ -844,11 +844,11 @@ button.addEventListener("click", () => {
   button.classList.add("button-loader");
 
   // Simulate an asynchronous task (replace this with your actual task)
-  // setTimeout(() => {
+  setTimeout(() => {
     // Re-enable the button
-    //button.disabled = true;
+    button.disabled = true;
 
     // Remove the loading animation CSS class
-    // button.classList.remove("button-loader");
-  //});
+    button.classList.remove("button-loader");
+  });
 });

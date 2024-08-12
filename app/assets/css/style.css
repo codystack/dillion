@@ -1,22 +1,3 @@
-/* @font-face {
-    font-family: 'PowerGrotesk';
-    src: local('PowerGrotesk Regular'), local('PowerGrotesk-Regular'),
-    url('../fonts/PowerGrotesk-Regular.ttf') format('truetype'),
-    url('../fonts/PowerGrotesk-Regular.otf') format('otf');
-    font-weight: 700;
-    font-style: normal;
-} */
-
-/* @font-face {
-    font-family: 'Recoleta';
-    src: local('Recoleta Alt Bold'), local('Recoleta-Alt-Bold'),
-    url('../fonts/RecoletaAlt-Bold.woff2') format('woff2'),
-    url('../fonts/RecoletaAlt-Bold.woff') format('woff'),
-    url('../fonts/RecoletaAlt-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-} */
-
 :root,[data-bs-theme=light] {
     --bs-blue: #ed1c24;
     --bs-indigo: #727cf5;
@@ -54,7 +35,7 @@
     --bs-success-rgb: 0,217,126;
     --bs-info-rgb: 57,175,209;
     --bs-warning-rgb: 246,195,67;
-    --bs-danger-rgb: 230,55,87;
+    --bs-danger-rgb: 237,28,36;
     --bs-light-rgb: 237,242,249;
     --bs-dark-rgb: 18,38,63;
     --bs-primary-text-emphasis: #12315c;
@@ -224,7 +205,7 @@ hr {
     font-weight: 500;
     /* font-family: PowerGrotesk; */
     /* font-family: Recoleta; */
-    font-family: Butler;
+    /* font-family: Butler; */
     line-height: 1.1;
     margin-bottom: 1.125rem;
     margin-top: 0

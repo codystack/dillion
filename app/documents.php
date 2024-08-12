@@ -74,7 +74,7 @@ include "./components/sidebar.php";
                                         </div>
                                         <div class="col ms-n2">
                                             <h4 class="mb-1 name">
-                                                <a href="https://admin.dillion.com/<?php echo $document; ?>" target="_blank"><?php echo $document_title; ?></a>
+                                                <a href="https://admin.dillionproperty.ng/<?php echo $document; ?>" target="_blank"><?php echo $document_title; ?></a>
                                             </h4>
 
                                             <p class="card-text small text-body-secondary">
@@ -83,8 +83,8 @@ include "./components/sidebar.php";
                                         </div>
                                         <div class="col-auto">
                                             <!-- <button onclick="downloadPdf()" class="btn btn-sm btn-white d-none d-md-inline-block"><i class="fe fe-download"></i> Download</button> -->
-                                            <a href="https://admin.dillion.com/<?php echo $document; ?>" target="_blank" class="btn btn-sm btn-white d-none d-md-inline-block"><i class="fe fe-download"></i> Download</a>
-                                            <a href="https://admin.dillion.com/<?php echo $document; ?>" target="_blank" class="btn btn-sm btn-dark d-none d-md-inline-block"><i class="fe fe-eye"></i> View</a>
+                                            <a href="https://admin.dillionproperty.ng/<?php echo $document; ?>" target="_blank" class="btn btn-sm btn-white d-none d-md-inline-block"><i class="fe fe-download"></i> Download</a>
+                                            <a href="https://admin.dillionproperty.ng/<?php echo $document; ?>" target="_blank" class="btn btn-sm btn-dark d-none d-md-inline-block"><i class="fe fe-eye"></i> View</a>
                                         </div>
                                         <div class="col-auto d-md-none">
                                             <div class="dropdown">
@@ -92,8 +92,8 @@ include "./components/sidebar.php";
                                                     <i class="fe fe-more-vertical"></i>
                                                 </a>
                                                 <div class="dropdown-menu dropdown-menu-end">
-                                                    <a href="https://admin.dillion.com/<?php echo $document; ?>" target="_blank" class="dropdown-item">View</a>
-                                                    <a href="https://admin.dillion.com/<?php echo $document; ?>" target="_blank" class="dropdown-item">Download</a>
+                                                    <a href="https://admin.dillionproperty.ng/<?php echo $document; ?>" target="_blank" class="dropdown-item">View</a>
+                                                    <a href="https://admin.dillionproperty.ng/<?php echo $document; ?>" target="_blank" class="dropdown-item">Download</a>
                                                 </div>
                                             </div>
                                         </div>

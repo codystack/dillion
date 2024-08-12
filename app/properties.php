@@ -1,5 +1,5 @@
 <?php
-$page = "Dashboard";
+$page = "Properties";
 include "./components/header.php";
 include "./components/sidebar.php";
 ?>
@@ -10,7 +10,7 @@ include "./components/sidebar.php";
                 <div class="header-body">
                     <div class="row align-items-end">
                         <div class="col">
-                            <h1 class="header-title">Welcome, <?php echo $first_name; ?> 👋🏽 </h1>
+                            <h1 class="header-title">Properties </h1>
                         </div>
                         <div class="col-auto navbar-user">
                             <div class="dropup">
@@ -36,108 +36,8 @@ include "./components/sidebar.php";
         <div class="container-fluid">
 
             <div class="row">
-                <div class="col-12 col-lg-6 col-xl-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row align-items-center gx-0">
-                                <div class="col">
-                                    <h6 class="text-uppercase text-body-secondary mb-2">Total Investment</h6>
-                                    <span class="h2 mb-0">₦<?php echo number_format($wallet, 2, '.', ','); ?></span>
-                                </div>
-                                <div class="col-auto">
-                                    <div class="avatar avatar-sm">
-                                        <div class="avatar-title fs-lg bg-success-subtle rounded-circle text-success">
-                                            <i class="fe fe-dollar-sign"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6 col-xl-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row align-items-center gx-0">
-                                <div class="col">
-                                    <h6 class="text-uppercase text-body-secondary mb-2">Upcoming Payment</h6>
-                                    <span class="h2 mb-0">₦<?php echo number_format($paid_earnings, 2, '.', ','); ?></span>
-                                </div>
-                                <div class="col-auto">
-                                    <div class="avatar avatar-sm">
-                                        <div class="avatar-title fs-lg bg-danger-subtle rounded-circle text-danger">
-                                            <i class="fe fe-dollar-sign"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6 col-xl-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row align-items-center gx-0">
-                                <div class="col">
-                                    <h6 class="text-uppercase text-body-secondary mb-2">Total Property</h6>
-                                    <?php
-                                        $countDocuments = mysqli_query($conn, "SELECT document_id FROM documents WHERE userID='$user_id'");
-                                        echo "<span class='h2 mb-0'>".number_format(mysqli_num_rows($countDocuments), 0, '.', ',')."</span>"
-                                    ?>
-                                </div>
-                                <div class="col-auto">
-                                    <div class="avatar avatar-sm">
-                                        <div class="avatar-title fs-lg bg-primary-subtle rounded-circle text-primary">
-                                            <i class="fe fe-home"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6 col-xl-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row align-items-center gx-0">
-                                <div class="col">
-                                    <h6 class="text-uppercase text-body-secondary mb-2">Documents</h6>
-                                    <?php
-                                        $countDocuments = mysqli_query($conn, "SELECT document_id FROM documents WHERE userID='$user_id'");
-                                        echo "<span class='h2 mb-0'>".number_format(mysqli_num_rows($countDocuments), 0, '.', ',')."</span>"
-                                    ?>
-                                </div>
-                                <div class="col-auto">
-                                    <div class="avatar avatar-sm">
-                                        <div class="avatar-title fs-lg bg-warning-subtle rounded-circle text-warning">
-                                            <i class="fe fe-file-text"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-2 align-items-center">
-                <div class="col">
-                    <h5 class="header-pretitle">Properties</h5>
-                </div>
-
-                <div class="col-auto">
-                    <a href="properties" class="btn btn-primary btn-sm ms-2">View all <i class="fe fe-arrow-right"></i></a>
-                </div>
-            </div>
-
-            <hr class="mb-4">
-
-            <div class="row">
                 <?php
-                    $select_query = "SELECT * FROM properties ORDER BY created_at DESC LIMIT 3";
+                    $select_query = "SELECT * FROM properties ORDER BY created_at DESC";
                         $result = mysqli_query($conn, $select_query);
                         if (mysqli_num_rows($result) > 0) {
                             // output data of each row

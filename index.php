@@ -1,5 +1,6 @@
 <?php
     include "./components/header.php";
+    include "./config/db.php";
 ?>
 
     <div id="page_wrapper">
@@ -95,29 +96,68 @@
                 <div class="row">
                     <div class="col">
                         <div class="3block-carusel nav-disable owl-carousel">
+                            <?php
+                                $select_query = "SELECT * FROM properties ORDER BY created_at DESC LIMIT 6";
+                                    $result = mysqli_query($conn, $select_query);
+                                    if (mysqli_num_rows($result) > 0) {
+                                        // output data of each row
+                                        while($row = mysqli_fetch_assoc($result)) {
+                                            $property_id = $row['property_id'];
+                                            $title = $row['title'];
+                                            $location = $row['location'];
+                                            $city = $row['city'];
+                                            $size = $row['size'];
+                                            $document_title = $row['document_title'];
+                                            $quantity = $row['quantity'];
+                                            $amount = $row['amount'];
+                                            $property_image = $row['property_image'];
+                                            $status = $row['status'];
+                                            $created_at = $row['created_at'];
+                                            $date = strtotime($created_at);
+                                            switch ($status) {
+                                                case "Available";
+                                                    $class  = 'bg-success';
+                                                    $text   = 'Selling';
+                                                    break;
+                                                case "Sold";
+                                                    $class  = 'bg-primary';
+                                                    $text   = 'Sold';
+                                                    break;
+                                                default:
+                                                    $class  = '';
+                                            }
+                            ?>
                             <div class="item">
                                 <div class="property-grid-1 property-block bg-white transation-this">
-                                    <div class="overflow-hidden position-relative transation thumbnail-img bg-secondary hover-img-zoom">
-                                        <div class="cata position-absolute"><span class="sale bg-primary text-white">Selling</span></div>
-                                        <a href=""><img src="assets/images/property/land.jpeg" alt="Image Not Found!"></a>
+                                    <div class="overflow-hidden position-relative transation thumbnail-img hover-img-zoom m-4">
+                                        <div class="cata position-absolute">
+                                            <span class="sale <?php echo $class; ?> text-white"><?php echo $text; ?></span>
+                                        </div>
+                                        <a href="view-property?id=<?php echo $property_id; ?>">
+                                            <img src="https://backoffice.dillionproperty.ng/<?php echo $property_image; ?>" alt="Property image" style="height: 14rem;width: 100%;object-fit: cover;object-position: top;border-radius: 1rem;">
+                                        </a>
                                     </div>
                                     <div class="property_text p-4">
-                                        <h5 class="listing-title"><a href="">100 Plots of Land</a></h5>
-                                        <span class="listing-location"><i class="fas fa-map-marker-alt"></i> Garrison</span>
+                                        <h5 class="listing-title"><a href="view-property?id=<?php echo $property_id; ?>"><?php echo $title; ?></a></h5>
+                                        <span class="listing-location"><i class="fas fa-map-marker-alt"></i> <?php echo $location; ?> (<?php echo $city;?>)</span>
                                         <ul class="d-flex quantity font-fifteen">
-                                            <li title="Area"><span><i class="fa-solid fa-vector-square"></i></span>465 SQM</li>
-                                            <li title="Area"><span><i class="fa-solid fa-file-circle-check"></i></span>C of O</li>
-                                            <li title="Area"><span><i class="fa-solid fa-hands-holding-circle"></i></span> 100 Plots</li>
+                                            <li title="Area"><span><i class="fa-solid fa-vector-square text-primary"></i></span><?php echo $size; ?> SQM</li>
+                                            <li title="Area"><span><i class="fa-solid fa-file-circle-check text-primary"></i></span><?php echo $document_title; ?></li>
+                                            <li title="Area"><span><i class="fa-solid fa-hands-holding-circle text-primary"></i></span> <?php echo $quantity; ?> Plots</li>
                                         </ul>
                                     </div>
                                     <div class="d-flex align-items-center post-meta mt-2 py-3 px-4 border-top">
                                         <div>
-                                            <span class="listing-price">₦70,000,000<small> (Per plot)</small></span>
+                                            <span class="listing-price">₦<?php echo number_format($amount, 0, '.', ','); ?><small> (Per plot)</small></span>
                                         </div>
-                                        <div class="post-date ms-auto"><a href="" class="btn btn-primary">Buy Now</a></div>
+                                        <div class="post-date ms-auto"><a href="view-property?id=<?php echo $property_id; ?>" class="btn btn-primary">More Details</a></div>
                                     </div>
                                 </div>
                             </div>
+                            <?php
+                                    }
+                                }
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -125,75 +165,70 @@
         </div>
         
         
-        <!-- <div class="full-row bg-secondary">
+        <div class="full-row">
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div class="text-white text-center mb-5">
-                            <h2 class="text-white mx-auto mb-4">Find Properties in These Cities</h2>
-                            <span class="d-table w-50 w-sm-100 sub-title mx-auto text-center">Mauris primis turpis Laoreet magna felis mi amet quam enim curae. Sodales semper tempor dictum faucibus habitasse.</span>
+                        <div class="text-center mb-5">
+                            <h2 class="mx-auto mb-2">Need Properties in These Cities?<br>We've got you covered.</h2>
+                            <span class="d-table w-50 w-sm-100 sub-title mx-auto text-center">Let's help you shop for that next property in your preferred city.</span>
                         </div>
                     </div>
                 </div>
                 <div class="row row-cols-lg-5 row-cols-md-5 row-cols-sm-2 row-cols-1">
-                    <div class="col">
+                    <div class="col col-xl-3">
                         <div class="hover-img-zoom text-center mb-4">
                             <div class="overflow-hidden transation thumbnail-img rounded-circle bg-secondary">
-                                <img src="assets/images/location/3.png" alt="image not found">
+                                <img src="assets/images/location/ph.jpg" alt="image not found">
                             </div>
                             <div class="mt-3">
-                                <h5 class="transation font-400"><a href="#" class="text-white">Port Harcourt</a></h5>
-                                <p class="text-primary">82 Properties</p>
+                                <h5 class="transation font-400">Port Harcourt</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col col-xl-3">
                         <div class="hover-img-zoom text-center mb-4">
                             <div class="overflow-hidden transation thumbnail-img rounded-circle bg-secondary">
-                                <img src="assets/images/location/1.png" alt="image not found">
+                                <img src="assets/images/location/lagos.jpg" alt="Lagos image not found">
                             </div>
                             <div class="mt-3">
-                                <h5 class="transation font-400"><a href="#" class="text-white">Lagos</a></h5>
-                                <p class="text-primary">57 Properties</p>
+                                <h5 class="transation font-400">Lagos</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col col-xl-3">
                         <div class="hover-img-zoom text-center mb-4">
                             <div class="overflow-hidden transation thumbnail-img rounded-circle bg-secondary">
-                                <img src="assets/images/location/2.png" alt="image not found">
+                                <img src="assets/images/location/abuja.jpg" alt="Abuja image not found">
                             </div>
                             <div class="mt-3">
-                                <h5 class="transation font-400"><a href="#" class="text-white">Abuja</a></h5>
-                                <p class="text-primary">170 Properties</p>
+                                <h5 class="transation font-400">Abuja</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <!-- <div class="col">
                         <div class="hover-img-zoom text-center mb-4">
                             <div class="overflow-hidden transation thumbnail-img rounded-circle bg-secondary">
                                 <img src="assets/images/location/4.png" alt="image not found">
                             </div>
                             <div class="mt-3">
-                                <h5 class="transation font-400"><a href="#" class="text-white">Benin</a></h5>
-                                <p class="text-primary">17 Properties</p>
+                                <h5 class="transation font-400">Benin</h5>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
+                    </div> -->
+                    <div class="col col-xl-3">
                         <div class="hover-img-zoom text-center mb-4">
                             <div class="overflow-hidden transation thumbnail-img rounded-circle bg-secondary">
-                                <img src="assets/images/location/5.png" alt="image not found">
+                                <img src="assets/images/location/owerri.jpg" alt="Oweeri image not found">
                             </div>
                             <div class="mt-3">
-                                <h5 class="transation font-400"><a href="#" class="text-white">Owerri</a></h5>
-                                <p class="text-primary">27 Properties</p>
+                                <h5 class="transation font-400">Owerri</h5>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <?php include "./components/testimonial.php"; ?>
 
