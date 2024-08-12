@@ -183,7 +183,7 @@
                             </div>
                         </div>
                         
-                        <div class="property-overview border rounded bg-white overflow-hidden mb-30">
+                        <div class="property-overview border rounded bg-white overflow-hidden mb-30" style="display: <?php if (!$video_link){ echo 'none';}else{ echo 'unset';}; ?>">
                             <div class="row row-cols-1">
                                 <div class="col">
                                     <div class="mt-md-30 position-relative overlay-secondary">
