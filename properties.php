@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1">
                     <?php
-                        $select_query = "SELECT * FROM properties ORDER BY created_at DESC LIMIT 6";
+                        $select_query = "SELECT * FROM properties ORDER BY created_at DESC";
                             $result = mysqli_query($conn, $select_query);
                             if (mysqli_num_rows($result) > 0) {
                                 // output data of each row
